@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3sp"
+    android:layout_marginBottom="3sp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/itemMenu"
+        android:background="@drawable/round_button"
+        android:layout_width="140sp"
+        android:layout_height="45sp"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:textColor="@color/colorText">
+</TextView>
+</LinearLayout>

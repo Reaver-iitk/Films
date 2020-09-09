@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_margin="7sp"
+            app:cardCornerRadius="20sp"
+            android:layout_width="140sp"
+            android:layout_height="140sp"
+            android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageFilm"
+        android:layout_width="140sp"
+        android:layout_height="140sp"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:src="@drawable/notfound">
+    </ImageView>
+    <TextView
+        android:id="@+id/nameFilm"
+        android:background="#73121212"
+        android:layout_width="140sp"
+        android:layout_height="50sp"
+        android:lines="2"
+        android:singleLine="false"
+        android:padding="3sp"
+        android:textAllCaps="false"
+        android:layout_gravity="bottom"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:textColor="@color/colorText">
+    </TextView>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

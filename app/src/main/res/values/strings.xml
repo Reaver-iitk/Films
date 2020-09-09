@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Films</string>
+    <string name="genres">Жанры</string>
+    <string name="films">Фильмы</string>
+    <string name="btn_drama">драма</string>
+    <string name="btn_fantasy">фэнтези</string>
+    <string name="btn_kriminal">криминал</string>
+    <string name="btn_detective">детектив</string>
+    <string name="btn_melodrama">мелодрама</string>
+    <string name="btn_biografia">биография</string>
+    <string name="btn_comedy">комедия</string>
+    <string name="btn_fantastika">фантастика</string>
+    <string name="btn_boevik">боевик</string>
+    <string name="btn_triler">триллер</string>
+    <string name="btn_musicl">мюзикл</string>
+    <string name="btn_prikluc">приключения</string>
+    <string name="btn_horrors">ужасы</string>
+</resources>
