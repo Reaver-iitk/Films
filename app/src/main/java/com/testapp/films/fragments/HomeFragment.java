@@ -81,15 +81,9 @@ public class HomeFragment extends Fragment {
                             films = response.body().getFilms();
                             int i=0;
                             while (i<films.size()){
-                                if (i % 2 == 0){
                                     items.add(new Item(2, new Movies(films.get(i).getImageUrl(),films.get(i).getLocalizedName(),films.get(i).getYear(),
                                         films.get(i).getRating(),films.get(i).getDescription(),films.get(i).getName(),films.get(i).getGenres())));
                                     i++;
-                                }else{
-                                    items.add(new Item(3, new Movies(films.get(i).getImageUrl(),films.get(i).getLocalizedName(),films.get(i).getYear(),
-                                            films.get(i).getRating(),films.get(i).getDescription(),films.get(i).getName(),films.get(i).getGenres())));
-                                    i++;
-                                }
                             }
                             recyclerView.setAdapter(new FilmAdapter(items,getContext())); //Издержки одного элемента для навигации и api. Побочный эффект - подёргивание при прогрузке
                         }
